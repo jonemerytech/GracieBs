@@ -1,38 +1,217 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.rounded-btn {
+  border-radius: 50px;
+  border: solid #6d2e52 2px;
+  width: 120px;
   text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  color: black;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rounded-btn:hover {
+  border-radius: 50px;
+  background: #6d2e52;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  outline: none !important;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+[aria-expanded='false'] .menu__icon--open {
+  display: block;
+  outline: none;
+}
+
+[aria-expanded='false'] .menu__icon--close {
+  display: none;
+  outline: none;
+}
+
+[aria-expanded='true'] .menu__icon--open {
+  display: none;
+  outline: none;
+}
+
+[aria-expanded='true'] .menu__icon--close {
+  display: block;
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .masonry {
+    column-count: 2;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1694px) {
+  .welcome {
+    background-position: center !important;
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    top: 57px;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .changeColor {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .changeColor .nav-link,
+  .changeColor .fas {
+    color: #fff;
+  }
+
+  .mobileNav {
+    top: 0;
+  }
+
+  .welcome {
+    background-position: center !important;
+  }
+}
+
+/* Masonry on big screens */
+@media only screen and (min-width: 1024px) {
+  .desc {
+    font-size: 1.25em;
+  }
+
+  .intro {
+    letter-spacing: 1px;
+  }
+
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .mobtime {
+    display: block !important;
+  }
+
+  .top-bar {
+    display: none !important;
+  }
+
+  .services {
+    background-attachment: scroll !important;
+  }
+
+  .testmon .col,
+  .services h2 {
+    background: white;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 899px) {
+  nav {
+    top: 0px !important;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .services {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 769px) {
+  #contact {
+    height: 1000px !important;
+  }
+
+  #contact .row {
+    grid-template-columns: 1fr !important;
+  }
+
+  #contact #glitter {
+    background: url('./assets/gold-glitter.png') center/cover no-repeat !important;
+  }
+
+  #contact .col1,
+  #contact .col2 {
+    height: 500px !important;
+    width: 100%;
+  }
+
+  .staff .row .col-sm {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .col2 h1 {
+    margin-top: 4rem;
+  }
+
+  .services {
+    background-attachment: scroll;
+  }
+
+  .welcome h1 {
+    font-size: 1.5em !important;
+  }
+
+  .welcome .overlay .text-md-center {
+    padding: 0 0.3rem !important;
+  }
+}
+
+@media (max-height: 376px) {
+  .main img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 4rem;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin-top: 1.5rem;
+  }
+
+  .services {
+    background-attachment: scroll;
   }
 }

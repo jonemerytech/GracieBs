@@ -1,0 +1,10 @@
+.mobtime {
+  display: none;
+  font-size: 14px;
+  background-color: #ffcc66;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  margin: 0 1.5rem;
+  margin-top: 4rem;
+}

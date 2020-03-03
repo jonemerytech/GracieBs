@@ -1,0 +1,75 @@
+.pic1 {
+  background-image: url('../../assets/gracieTest.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: solid grey 3px;
+  height: 120px;
+  width: 120px;
+}
+
+.pic2 {
+  background-image: url('../../assets/amyt.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: solid grey 3px;
+  height: 120px;
+  width: 120px;
+}
+
+.pic3 {
+  background-image: url('../../assets/kara.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: solid grey 3px;
+  height: 120px;
+  width: 120px;
+}
+
+.pic4 {
+  background-image: url('../../assets/haleyt.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: solid grey 3px;
+  height: 120px;
+  width: 120px;
+}
+
+.pic5 {
+  background-image: url('../../assets/mckenziet.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: solid grey 3px;
+  height: 120px;
+  width: 120px;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
+}
+
+.staff h2 {
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.staff h3 {
+  color: black;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}

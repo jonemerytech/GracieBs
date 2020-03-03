@@ -1,0 +1,27 @@
+#contact {
+  max-height: 1200px;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Dancing Script', cursive;
+  color: #6d2e52;
+  border-bottom: 2px solid #6d2e52;
+}
+
+#contact .row {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#contact #glitter {
+  background: url('../../assets/gold-glitter.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  padding-left: 1rem;
+}
