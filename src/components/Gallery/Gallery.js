@@ -15,7 +15,7 @@ class Gallery extends Component {
   }
   render() {
     return (
-      <div className='wrapper pt-5 pb-5'>
+      <div className='wrapper pt-5 pb-5 text-center'>
         <h2 className='pb-5'>Gallery</h2>
         <div className='masonry'>
           {listOfImages.map((image, index) => (

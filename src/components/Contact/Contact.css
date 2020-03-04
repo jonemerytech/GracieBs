@@ -17,6 +17,7 @@
 #contact #glitter {
   background: url('../../assets/gold-glitter.png');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

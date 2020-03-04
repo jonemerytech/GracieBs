@@ -13,7 +13,7 @@ class Contact extends Component {
                 className='map'
                 frameBorder='0'
                 style={{ border: '0' }}
-                src='https://www.google.com/maps/embed/v1/place?key=AIzaSyDUfM1acnylfjYkrCBfIyTS0fEStUC4zLY&q=Gracie+Bs+Greenville+SC'
+                src='https://www.google.com/maps/embed/v1/place?key=AIzaSyDUfM1acnylfjYkrCBfIyTS0fEStUC4zLY&q=Graciebs+2403+poinsett+hwy+Greenville+SC+29609'
                 allowFullScreen
                 title='iframe'
               ></iframe>

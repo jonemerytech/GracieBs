@@ -197,6 +197,12 @@ button {
   .welcome .overlay .text-md-center {
     padding: 0 0.3rem !important;
   }
+
+  .main img {
+    max-width: 250px !important;
+    max-height: 111px !important;
+    margin-bottom: 1rem !important;
+  }
 }
 
 @media (max-height: 376px) {
