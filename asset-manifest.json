@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GracieBs/static/css/main.001b23a9.chunk.css",
+    "main.css": "/GracieBs/static/css/main.53251516.chunk.css",
     "main.js": "/GracieBs/static/js/main.16846760.chunk.js",
     "main.js.map": "/GracieBs/static/js/main.16846760.chunk.js.map",
     "runtime-main.js": "/GracieBs/static/js/runtime-main.a4a436b5.js",
@@ -9,10 +9,10 @@
     "static/js/2.7246f1a6.chunk.js": "/GracieBs/static/js/2.7246f1a6.chunk.js",
     "static/js/2.7246f1a6.chunk.js.map": "/GracieBs/static/js/2.7246f1a6.chunk.js.map",
     "index.html": "/GracieBs/index.html",
-    "precache-manifest.80e4b53d9c5cd32a2f7cb20bdc6f8424.js": "/GracieBs/precache-manifest.80e4b53d9c5cd32a2f7cb20bdc6f8424.js",
+    "precache-manifest.39af3be262234897fdc79892c06a57db.js": "/GracieBs/precache-manifest.39af3be262234897fdc79892c06a57db.js",
     "service-worker.js": "/GracieBs/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/GracieBs/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.001b23a9.chunk.css.map": "/GracieBs/static/css/main.001b23a9.chunk.css.map",
+    "static/css/main.53251516.chunk.css.map": "/GracieBs/static/css/main.53251516.chunk.css.map",
     "static/js/2.7246f1a6.chunk.js.LICENSE.txt": "/GracieBs/static/js/2.7246f1a6.chunk.js.LICENSE.txt",
     "static/media/Welcome.css": "/GracieBs/static/media/248613-P3U1ZD-912.cf1347f4.jpeg",
     "static/media/IMG_0209.png": "/GracieBs/static/media/IMG_0209.e8092ed7.png",
@@ -61,7 +61,7 @@
     "static/js/runtime-main.a4a436b5.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.7246f1a6.chunk.js",
-    "static/css/main.001b23a9.chunk.css",
+    "static/css/main.53251516.chunk.css",
     "static/js/main.16846760.chunk.js"
   ]
 }
