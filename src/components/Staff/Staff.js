@@ -178,6 +178,16 @@ class Staff extends Component {
                 {this.state.readmoremac ? 'Read Less' : 'Read More'}
               </button>
             </div>
+
+            <div className='col-sm'>
+              <div className='pic6 centerBlock'></div>
+              <h3>Stephanie Landreth</h3>
+              <p>
+                I am from Easley, SC. I graduated from Upstate College of
+                Cosmetology, specializing in blonding, wedding, prom hair and
+                makeup
+              </p>
+            </div>
           </div>
         </div>
       </div>

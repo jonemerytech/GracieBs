@@ -10,7 +10,7 @@ class Gallery extends Component {
   }
   UNSAFE_componentWillMount() {
     listOfImages = this.importAll(
-      require.context('../../assets/Gallery/', false, /\.(png|jpe?g|svg)$/)
+      require.context('../../assets/Gallery/', false, /\.(png|jpe?g|svg|JPG)$/)
     );
   }
   render() {
