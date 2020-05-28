@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "934cb29cfd03a40caf773b2c90ecb232",
+    "revision": "44c55a1fba9e6c5d1daafd191e87baee",
     "url": "/index.html"
   },
   {
-    "revision": "21c3948c78be99c9b58b",
+    "revision": "e7438762a8a901c4945b",
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "bd3a8398eb6708911565",
-    "url": "/static/css/main.b3d9a5a6.chunk.css"
+    "revision": "45f21da179b2b3447afa",
+    "url": "/static/css/main.9830c0b0.chunk.css"
   },
   {
-    "revision": "21c3948c78be99c9b58b",
-    "url": "/static/js/2.56cacf7d.chunk.js"
+    "revision": "e7438762a8a901c4945b",
+    "url": "/static/js/2.577350a0.chunk.js"
   },
   {
     "revision": "5776768c082169f6074c75f93f8b9356",
-    "url": "/static/js/2.56cacf7d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.577350a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd3a8398eb6708911565",
-    "url": "/static/js/main.5f57216d.chunk.js"
+    "revision": "45f21da179b2b3447afa",
+    "url": "/static/js/main.1736573c.chunk.js"
   },
   {
     "revision": "6c6617f04d0cec0e110a",
@@ -148,6 +148,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/amyt.1224b433.png"
   },
   {
+    "revision": "e5c299413f314d2e33e752aaf005d072",
+    "url": "/static/media/brittany.e5c29941.jpg"
+  },
+  {
     "revision": "127503854a2dd1bb2a556d590c730221",
     "url": "/static/media/facialEdit.12750385.png"
   },
@@ -192,12 +196,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logoWhite.3d81f575.png"
   },
   {
-    "revision": "f047f8e1de4d535c0b80e661b7e01245",
-    "url": "/static/media/mckenzie.f047f8e1.png"
-  },
-  {
-    "revision": "b858c2bf179a9ef637ffe9f6441b92a2",
-    "url": "/static/media/mckenziet.b858c2bf.png"
+    "revision": "35590a99d06ce28e7482461d01cf9c5e",
+    "url": "/static/media/steph.35590a99.JPG"
   },
   {
     "revision": "d6735a022ea75ae0608946438f2ddba5",
