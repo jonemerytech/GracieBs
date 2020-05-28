@@ -7,45 +7,45 @@ class Staff extends Component {
     readmoregracie: false,
     readmoreamy: false,
     readmorekara: false,
-    readmoremac: false
+    readmorebritt: false,
   };
 
-  changeRead = e => {
+  changeRead = (e) => {
     e.preventDefault();
     if (e.target.name === 'readmoregracie') {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         readmoregracie: !prevState.readmoregracie,
         readmoreamy: false,
         readmorekara: false,
         readmorehaley: false,
-        readmoremac: false
+        readmorebritt: false,
       }));
     }
     if (e.target.name === 'readmoreamy') {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         readmoreamy: !prevState.readmoreamy,
         readmoregracie: false,
         readmorekara: false,
         readmorehaley: false,
-        readmoremac: false
+        readmorebritt: false,
       }));
     }
     if (e.target.name === 'readmorekara') {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         readmorekara: !prevState.readmorekara,
         readmoregracie: false,
         readmoreamy: false,
         readmorehaley: false,
-        readmoremac: false
+        readmorebritt: false,
       }));
     }
-    if (e.target.name === 'readmoremac') {
-      this.setState(prevState => ({
-        readmoremac: !prevState.readmoremac,
+    if (e.target.name === 'readmorebritt') {
+      this.setState((prevState) => ({
+        readmorebritt: !prevState.readmorebritt,
         readmoregracie: false,
         readmoreamy: false,
         readmorekara: false,
-        readmorehaley: false
+        readmorehaley: false,
       }));
     }
   };
@@ -86,14 +86,19 @@ class Staff extends Component {
       );
     }
 
-    if (this.state.readmoremac === true) {
-      var readMoreMac = (
+    if (this.state.readmorebritt === true) {
+      var readMoreBritt = (
         <p>
-          family,friends,taking trips to the mountains and of
-          course...shopping!! I have been doing hair for about 2 years now and I
-          have loved every minute of it! I am so excited to be apart of Gracie
-          B's salon and continue to build my clientele here! Please feel free to
-          reach me at <a href='tel:+1846076588'>(864) 607-6588</a>
+          , perched at the foot of the Blue Ridge mountains in northern
+          Greenville county. I am a mother of Jayce, lover of Jesus, and you can
+          find me somewhere in the Sunshine! Hair has been my passion since a
+          young age; when I was only a toddler I would chop and style my
+          barbie/babydolls hair, and as a teenager I was always the one doing my
+          girlfriend's hair and makeup. After high school I decided I wanted to
+          make a career out of it, and graduated from hair school at The Academy
+          of Hair Technology in 2005. I especially like doing Blondes and men's
+          fades as I feel that the two are my strong points. When you are in my
+          chair you are more than a client, you're family!
         </p>
       );
     }
@@ -124,7 +129,7 @@ class Staff extends Component {
 
             <div className='col-sm'>
               <div className='pic2 centerBlock'></div>
-              <h3>Amy Wilson</h3>
+              <h3>Amy</h3>
               <p>
                 I am a single mother of three beautiful children, a Christian
                 and a licensed cosmetoligist for 22
@@ -162,26 +167,26 @@ class Staff extends Component {
 
             <div className='col-sm'>
               <div className='pic5 centerBlock'></div>
-              <h3>McKenzie</h3>
+              <h3>Brittany</h3>
               <p>
-                I'm McKenzie, 23 years old. Born and raised in Easley, SC. I
-                enjoy spending time with my
+                Hey y'all! My name is Brittany Batson, born and raised in
+                Travelers Rest South Carolina
               </p>
 
-              {readMoreMac}
+              {readMoreBritt}
 
               <button
                 onClick={this.changeRead}
                 className='btn btn-outline-dark'
-                name='readmoremac'
+                name='readmorebritt'
               >
-                {this.state.readmoremac ? 'Read Less' : 'Read More'}
+                {this.state.readmorebritt ? 'Read Less' : 'Read More'}
               </button>
             </div>
 
             <div className='col-sm'>
               <div className='pic6 centerBlock'></div>
-              <h3>Stephanie Landreth</h3>
+              <h3>Stephanie</h3>
               <p>
                 I am from Easley, SC. I graduated from Upstate College of
                 Cosmetology, specializing in blonding, wedding, prom hair and
