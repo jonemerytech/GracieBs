@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/GracieBs/static/css/main.472ff84c.chunk.css",
-    "main.js": "/GracieBs/static/js/main.5f57216d.chunk.js",
-    "main.js.map": "/GracieBs/static/js/main.5f57216d.chunk.js.map",
+    "main.css": "/GracieBs/static/css/main.6162cc89.chunk.css",
+    "main.js": "/GracieBs/static/js/main.e27d79f3.chunk.js",
+    "main.js.map": "/GracieBs/static/js/main.e27d79f3.chunk.js.map",
     "runtime-main.js": "/GracieBs/static/js/runtime-main.a4a436b5.js",
     "runtime-main.js.map": "/GracieBs/static/js/runtime-main.a4a436b5.js.map",
     "static/css/2.47e06e2e.chunk.css": "/GracieBs/static/css/2.47e06e2e.chunk.css",
     "static/js/2.56cacf7d.chunk.js": "/GracieBs/static/js/2.56cacf7d.chunk.js",
     "static/js/2.56cacf7d.chunk.js.map": "/GracieBs/static/js/2.56cacf7d.chunk.js.map",
     "index.html": "/GracieBs/index.html",
-    "precache-manifest.0f48b10b8fc683ac76a2302543542052.js": "/GracieBs/precache-manifest.0f48b10b8fc683ac76a2302543542052.js",
+    "precache-manifest.07b4ec2518f324b8b03d84c70bf024dc.js": "/GracieBs/precache-manifest.07b4ec2518f324b8b03d84c70bf024dc.js",
     "service-worker.js": "/GracieBs/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/GracieBs/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.472ff84c.chunk.css.map": "/GracieBs/static/css/main.472ff84c.chunk.css.map",
+    "static/css/main.6162cc89.chunk.css.map": "/GracieBs/static/css/main.6162cc89.chunk.css.map",
     "static/js/2.56cacf7d.chunk.js.LICENSE.txt": "/GracieBs/static/js/2.56cacf7d.chunk.js.LICENSE.txt",
     "static/media/Welcome.css": "/GracieBs/static/media/248613-P3U1ZD-912.cf1347f4.jpeg",
     "static/media/IMG_0209.png": "/GracieBs/static/media/IMG_0209.e8092ed7.png",
@@ -43,7 +43,8 @@
     "static/media/IMG_1073.jpeg": "/GracieBs/static/media/IMG_1073.a6d93ab9.jpeg",
     "static/media/IMG_1084.jpeg": "/GracieBs/static/media/IMG_1084.85292a8d.jpeg",
     "static/media/amy.jpeg": "/GracieBs/static/media/amy.58749940.jpeg",
-    "static/media/Staff.css": "/GracieBs/static/media/mckenziet.b858c2bf.png",
+    "static/media/Staff.css": "/GracieBs/static/media/steph.114897fb.png",
+    "static/media/brittany.jpg": "/GracieBs/static/media/brittany.e5c29941.jpg",
     "static/media/facialEdit.png": "/GracieBs/static/media/facialEdit.12750385.png",
     "static/media/Contact.css": "/GracieBs/static/media/gold-glitter.92f624f3.png",
     "static/media/hair1.jpeg": "/GracieBs/static/media/hair1.2cbbd3f3.jpeg",
@@ -54,15 +55,14 @@
     "static/media/Services.css": "/GracieBs/static/media/leav.fa187f6b.jpeg",
     "static/media/logo.png": "/GracieBs/static/media/logo.7e32c805.png",
     "static/media/logoWhite.png": "/GracieBs/static/media/logoWhite.3d81f575.png",
-    "static/media/mckenzie.png": "/GracieBs/static/media/mckenzie.f047f8e1.png",
-    "static/media/steph.png": "/GracieBs/static/media/steph.d6735a02.png",
+    "static/media/steph.JPG": "/GracieBs/static/media/steph.f06ad061.JPG",
     "static/media/wax.png": "/GracieBs/static/media/wax.71d26e15.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4a436b5.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.56cacf7d.chunk.js",
-    "static/css/main.472ff84c.chunk.css",
-    "static/js/main.5f57216d.chunk.js"
+    "static/css/main.6162cc89.chunk.css",
+    "static/js/main.e27d79f3.chunk.js"
   ]
 }
