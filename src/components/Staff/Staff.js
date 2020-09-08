@@ -12,19 +12,18 @@ class Staff extends Component {
 
   changeRead = (e) => {
     e.preventDefault();
-    if (e.target.name === 'readmoregracie') {
-      this.setState((prevState) => ({
-        readmoregracie: !prevState.readmoregracie,
-        readmoreamy: false,
-        readmorekara: false,
-        readmorehaley: false,
-        readmorebritt: false,
-      }));
-    }
+    // if (e.target.name === 'readmoregracie') {
+    //   this.setState((prevState) => ({
+    //     readmoregracie: !prevState.readmoregracie,
+    //     readmoreamy: false,
+    //     readmorekara: false,
+    //     readmorehaley: false,
+    //     readmorebritt: false,
+    //   }));
+    // }
     if (e.target.name === 'readmoreamy') {
       this.setState((prevState) => ({
         readmoreamy: !prevState.readmoreamy,
-        readmoregracie: false,
         readmorekara: false,
         readmorehaley: false,
         readmorebritt: false,
@@ -33,7 +32,6 @@ class Staff extends Component {
     if (e.target.name === 'readmorekara') {
       this.setState((prevState) => ({
         readmorekara: !prevState.readmorekara,
-        readmoregracie: false,
         readmoreamy: false,
         readmorehaley: false,
         readmorebritt: false,
@@ -42,7 +40,6 @@ class Staff extends Component {
     if (e.target.name === 'readmorebritt') {
       this.setState((prevState) => ({
         readmorebritt: !prevState.readmorebritt,
-        readmoregracie: false,
         readmoreamy: false,
         readmorekara: false,
         readmorehaley: false,
@@ -51,18 +48,18 @@ class Staff extends Component {
   };
 
   render() {
-    if (this.state.readmoregracie === true) {
-      var readMoreGrace = (
-        <p>
-          Gracie attended Travelers Rest High School and enjoyed being in the
-          school pageants and this is when she fell in love with makeup. Gracie
-          also realized in order for your makeup to look great, you need to have
-          a wonderful skincare routine. Gracie is excited to teach others the
-          tricks of the trade and latest techniques she learned at school. We
-          are looking forward to having Gracie at Gracie B's in the near future.
-        </p>
-      );
-    }
+    // if (this.state.readmoregracie === true) {
+    //   var readMoreGrace = (
+    //     <p>
+    //       Gracie attended Travelers Rest High School and enjoyed being in the
+    //       school pageants and this is when she fell in love with makeup. Gracie
+    //       also realized in order for your makeup to look great, you need to have
+    //       a wonderful skincare routine. Gracie is excited to teach others the
+    //       tricks of the trade and latest techniques she learned at school. We
+    //       are looking forward to having Gracie at Gracie B's in the near future.
+    //     </p>
+    //   );
+    // }
 
     if (this.state.readmoreamy === true) {
       var readMoreAmy = (
@@ -108,7 +105,7 @@ class Staff extends Component {
           <h2>Our Talented Staff</h2>
           <br />
           <div className='row'>
-            <div className='col-sm'>
+            {/* <div className='col-sm'>
               <div className='pic1 centerBlock'></div>
               <h3>Coming Soon: Gracie Bayne</h3>
               <p>
@@ -125,7 +122,7 @@ class Staff extends Component {
               >
                 {this.state.readmoregracie ? 'Read Less' : 'Read More'}
               </button>
-            </div>
+            </div> */}
 
             <div className='col-sm'>
               <div className='pic2 centerBlock'></div>
