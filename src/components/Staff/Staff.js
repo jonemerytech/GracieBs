@@ -8,6 +8,7 @@ class Staff extends Component {
     readmoreamy: false,
     readmorekara: false,
     readmorebritt: false,
+    readmorenatasha: false,
   };
 
   changeRead = (e) => {
@@ -21,12 +22,22 @@ class Staff extends Component {
     //     readmorebritt: false,
     //   }));
     // }
+    if (e.target.name === 'readmorenatasha') {
+      this.setState((prevState) => ({
+        readmorenatasha: !prevState.readmorenatasha,
+        readmoreamy: false,
+        readmorekara: false,
+        readmorehaley: false,
+        readmorebritt: false,
+      }));
+    }
     if (e.target.name === 'readmoreamy') {
       this.setState((prevState) => ({
         readmoreamy: !prevState.readmoreamy,
         readmorekara: false,
         readmorehaley: false,
         readmorebritt: false,
+        readmorenatasha: false,
       }));
     }
     if (e.target.name === 'readmorekara') {
@@ -35,6 +46,7 @@ class Staff extends Component {
         readmoreamy: false,
         readmorehaley: false,
         readmorebritt: false,
+        readmorenatasha: false,
       }));
     }
     if (e.target.name === 'readmorebritt') {
@@ -43,6 +55,7 @@ class Staff extends Component {
         readmoreamy: false,
         readmorekara: false,
         readmorehaley: false,
+        readmorenatasha: false,
       }));
     }
   };
@@ -60,6 +73,15 @@ class Staff extends Component {
     //     </p>
     //   );
     // }
+
+    if (this.state.readmorenatasha === true) {
+      var readMoreNatasha = (
+        <p>
+          I continue my education with hair shows and classes. I also look
+          forward to being in a new salon, and taking on new clients!
+        </p>
+      );
+    }
 
     if (this.state.readmoreamy === true) {
       var readMoreAmy = (
@@ -123,6 +145,25 @@ class Staff extends Component {
                 {this.state.readmoregracie ? 'Read Less' : 'Read More'}
               </button>
             </div> */}
+
+            <div className='col-sm'>
+              <div className='pic1 centerBlock'></div>
+              <h3>Natasha Pitman</h3>
+              <p>
+                I have been doing hair since 2013. I love doing color, creative
+                color, men and women's cuts as well.
+              </p>
+
+              {readMoreNatasha}
+
+              <button
+                onClick={this.changeRead}
+                className='btn btn-outline-dark'
+                name='readmorenatasha'
+              >
+                {this.state.readmorenatasha ? 'Read Less' : 'Read More'}
+              </button>
+            </div>
 
             <div className='col-sm'>
               <div className='pic2 centerBlock'></div>
