@@ -38,12 +38,14 @@ export const Welcome = () => {
           id='home'
         >
           <div className={showLogo}>
-            <img
-              src={LogoWhite}
-              style={{ maxHeight: '50px' }}
-              className='d-inline-block align-top post'
-              alt="Gracie B's"
-            />
+            <a href='#home'>
+              <img
+                src={LogoWhite}
+                style={{ maxHeight: '50px' }}
+                className='d-inline-block align-top post'
+                alt="Gracie B's"
+              />
+            </a>
           </div>
           <button
             className='navbar-toggler'
