@@ -1,9 +1,6 @@
 .services {
-  background-image: url('../../assets/leav.jpeg');
-  background-repeat: no-repeat;
+  background: url('../../assets/leav.jpeg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .card-s {

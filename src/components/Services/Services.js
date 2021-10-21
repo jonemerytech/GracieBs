@@ -4,7 +4,6 @@ import './Services.css';
 
 import Wig from '../../assets/wig.png';
 import Lotion from '../../assets/lotion.png';
-import Facial from '../../assets/facialEdit.png';
 import Wax from '../../assets/wax.png';
 import Cosmetics from '../../assets/cosmetics.png';
 
@@ -12,32 +11,32 @@ class Services extends Component {
   state = {
     viewAllPeels: false,
     viewAllFacials: false,
-    viewAllWax: false
+    viewAllWax: false,
   };
 
-  viewMore = e => {
+  viewMore = (e) => {
     e.preventDefault();
     if (e.target.name === 'viewAllPeels') {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         viewAllPeels: !prevState.viewAllPeels,
         viewAllFacials: false,
-        viewAllWax: false
+        viewAllWax: false,
       }));
     }
 
-    if (e.target.name === 'viewAllFacials') {
-      this.setState(prevState => ({
-        viewAllFacials: !prevState.viewAllFacials,
-        viewAllPeels: false,
-        viewAllWax: false
-      }));
-    }
+    // if (e.target.name === 'viewAllFacials') {
+    //   this.setState((prevState) => ({
+    //     viewAllFacials: !prevState.viewAllFacials,
+    //     viewAllPeels: false,
+    //     viewAllWax: false,
+    //   }));
+    // }
 
     if (e.target.name === 'viewAllWax') {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         viewAllWax: !prevState.viewAllWax,
         viewAllPeels: false,
-        viewAllFacials: false
+        viewAllFacials: false,
       }));
     }
   };
@@ -85,87 +84,87 @@ class Services extends Component {
       );
     }
 
-    if (this.state.viewAllFacials === true) {
-      var viewMoreFacials = (
-        <React.Fragment>
-          <li className='list-group-item text-left'>
-            <strong>Anti-Aging Facial - 1hr $70</strong>
+    // if (this.state.viewAllFacials === true) {
+    //   var viewMoreFacials = (
+    //     <React.Fragment>
+    //       <li className='list-group-item text-left'>
+    //         <strong>Anti-Aging Facial - 1hr $70</strong>
 
-            <hr />
+    //         <hr />
 
-            <p className='text-center'>
-              Customized facial for pre-mature, aging skin. Includes special
-              treatments to help reduce the appearance of fine lines and
-              wrinkles, while hydrating and plumping the skin.
-            </p>
-          </li>
+    //         <p className='text-center'>
+    //           Customized facial for pre-mature, aging skin. Includes special
+    //           treatments to help reduce the appearance of fine lines and
+    //           wrinkles, while hydrating and plumping the skin.
+    //         </p>
+    //       </li>
 
-          <li className='list-group-item text-left'>
-            <strong>Purifying Facial - 1hr $70</strong>
+    //       <li className='list-group-item text-left'>
+    //         <strong>Purifying Facial - 1hr $70</strong>
 
-            <hr />
+    //         <hr />
 
-            <p className='text-center'>
-              Designed for oily and acne skin. It will help minimize oil
-              production and large congested pores. Includes a deep pore
-              cleansing, exfoliation, facial extractions (if needed), and
-              customized facial mask.
-            </p>
-          </li>
+    //         <p className='text-center'>
+    //           Designed for oily and acne skin. It will help minimize oil
+    //           production and large congested pores. Includes a deep pore
+    //           cleansing, exfoliation, facial extractions (if needed), and
+    //           customized facial mask.
+    //         </p>
+    //       </li>
 
-          <li className='list-group-item text-left'>
-            <strong>Specialty Facial - 1hr $80</strong>
+    //       <li className='list-group-item text-left'>
+    //         <strong>Specialty Facial - 1hr $80</strong>
 
-            <hr />
+    //         <hr />
 
-            <p className='text-center'>
-              Seasons come and go, but your skin can always glow. With this
-              specialty facial, you will receive a deep cleanse, seasonal enzyme
-              facial exfoliation treatment, extractions (if needed), facial
-              massage, and a seasonal face mask.
-            </p>
-          </li>
+    //         <p className='text-center'>
+    //           Seasons come and go, but your skin can always glow. With this
+    //           specialty facial, you will receive a deep cleanse, seasonal enzyme
+    //           facial exfoliation treatment, extractions (if needed), facial
+    //           massage, and a seasonal face mask.
+    //         </p>
+    //       </li>
 
-          <li className='list-group-item text-left'>
-            <strong>Back Facial - 40min $40</strong>
+    //       <li className='list-group-item text-left'>
+    //         <strong>Back Facial - 40min $40</strong>
 
-            <hr />
+    //         <hr />
 
-            <p className='text-center'>
-              Designed to help you relax and give your back the treatment it
-              deserves. Includes a deep cleanse, exfoliation, massage, and a
-              mask.
-            </p>
-          </li>
+    //         <p className='text-center'>
+    //           Designed to help you relax and give your back the treatment it
+    //           deserves. Includes a deep cleanse, exfoliation, massage, and a
+    //           mask.
+    //         </p>
+    //       </li>
 
-          <li className='list-group-item text-left'>
-            <strong>High Frequency Treatment - $35 add to facial $20</strong>
+    //       <li className='list-group-item text-left'>
+    //         <strong>High Frequency Treatment - $35 add to facial $20</strong>
 
-            <hr />
+    //         <hr />
 
-            <p className='text-center'>
-              Helps to prevent stubborn acne, shrink enlarged pores, reduces the
-              appearance of fine lines and wrinkles, decongest puffy eyes, fade
-              dark eye circles, rejuvenate the condition of the scalp and
-              nourish hair follicles for healthier hair.
-            </p>
-          </li>
+    //         <p className='text-center'>
+    //           Helps to prevent stubborn acne, shrink enlarged pores, reduces the
+    //           appearance of fine lines and wrinkles, decongest puffy eyes, fade
+    //           dark eye circles, rejuvenate the condition of the scalp and
+    //           nourish hair follicles for healthier hair.
+    //         </p>
+    //       </li>
 
-          <li className='list-group-item text-left'>
-            <strong>Microdermabrasion - $45 add to facial $20</strong>
+    //       <li className='list-group-item text-left'>
+    //         <strong>Microdermabrasion - $45 add to facial $20</strong>
 
-            <hr />
+    //         <hr />
 
-            <p className='text-center'>
-              Microdermabrasion helps with dull skin, soften fine lines, smooths
-              out coarse skin texture, reduces acne, and pore sizes, fades
-              scars, and brown spots, and stimulates cell turnover and creation
-              of collagen.
-            </p>
-          </li>
-        </React.Fragment>
-      );
-    }
+    //         <p className='text-center'>
+    //           Microdermabrasion helps with dull skin, soften fine lines, smooths
+    //           out coarse skin texture, reduces acne, and pore sizes, fades
+    //           scars, and brown spots, and stimulates cell turnover and creation
+    //           of collagen.
+    //         </p>
+    //       </li>
+    //     </React.Fragment>
+    //   );
+    // }
 
     if (this.state.viewAllWax === true) {
       var viewMoreWax = (
@@ -266,7 +265,7 @@ class Services extends Component {
               </ul>
             </div>
           </div>
-          <div className='row'>
+          {/* <div className='row'>
             <div className='col card-s'>
               <img src={Facial} className='cir-bg' alt='Facial' />
               <br />
@@ -311,7 +310,7 @@ class Services extends Component {
                 </button>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className='row'>
             <div className='col card-s'>
               <img src={Wax} className='cir-bg' alt='Wax' />

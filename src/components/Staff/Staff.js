@@ -40,15 +40,15 @@ class Staff extends Component {
         readmorenatasha: false,
       }));
     }
-    if (e.target.name === 'readmorekara') {
-      this.setState((prevState) => ({
-        readmorekara: !prevState.readmorekara,
-        readmoreamy: false,
-        readmorehaley: false,
-        readmorebritt: false,
-        readmorenatasha: false,
-      }));
-    }
+    // if (e.target.name === 'readmorekara') {
+    //   this.setState((prevState) => ({
+    //     readmorekara: !prevState.readmorekara,
+    //     readmoreamy: false,
+    //     readmorehaley: false,
+    //     readmorebritt: false,
+    //     readmorenatasha: false,
+    //   }));
+    // }
     if (e.target.name === 'readmorebritt') {
       this.setState((prevState) => ({
         readmorebritt: !prevState.readmorebritt,
@@ -94,16 +94,16 @@ class Staff extends Component {
       );
     }
 
-    if (this.state.readmorekara === true) {
-      var readMoreKara = (
-        <p>
-          where clients can heal and beautify. I make use of the latest
-          technologies as well, offering the newest treatments for targeted
-          answers to any of your skin care concerns. Please feel free to reach
-          me at <a href='tel:+1843601437'>(864) 360-1437</a>
-        </p>
-      );
-    }
+    // if (this.state.readmorekara === true) {
+    //   var readMoreKara = (
+    //     <p>
+    //       where clients can heal and beautify. I make use of the latest
+    //       technologies as well, offering the newest treatments for targeted
+    //       answers to any of your skin care concerns. Please feel free to reach
+    //       me at <a href='tel:+1843601437'>(864) 360-1437</a>
+    //     </p>
+    //   );
+    // }
 
     if (this.state.readmorebritt === true) {
       var readMoreBritt = (
@@ -184,7 +184,7 @@ class Staff extends Component {
               </button>
             </div>
 
-            <div className='col-sm'>
+            {/* <div className='col-sm'>
               <div className='pic3 centerBlock'></div>
               <h3>Kara</h3>
               <p>
@@ -201,7 +201,7 @@ class Staff extends Component {
               >
                 {this.state.readmorekara ? 'Read Less' : 'Read More'}
               </button>
-            </div>
+            </div> */}
 
             <div className='col-sm'>
               <div className='pic5 centerBlock'></div>
@@ -222,7 +222,7 @@ class Staff extends Component {
               </button>
             </div>
 
-            <div className='col-sm'>
+            {/* <div className='col-sm'>
               <div className='pic6 centerBlock'></div>
               <h3>Stephanie</h3>
               <p>
@@ -230,7 +230,7 @@ class Staff extends Component {
                 Cosmetology, specializing in blonding, wedding, prom hair and
                 makeup
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

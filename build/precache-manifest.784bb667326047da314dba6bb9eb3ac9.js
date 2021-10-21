@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "825fa5f1f6ecc3c075fd80b12eefec08",
+    "revision": "b0f1ccb44919d599ef0ec2ccea1de83b",
     "url": "/index.html"
   },
   {
-    "revision": "e7438762a8a901c4945b",
+    "revision": "75d0a7d4eefdf6c21ec6",
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "c6efa76a0ad6321914ce",
-    "url": "/static/css/main.6d70535f.chunk.css"
+    "revision": "719f13964b898a22b2c0",
+    "url": "/static/css/main.8045e455.chunk.css"
   },
   {
-    "revision": "e7438762a8a901c4945b",
-    "url": "/static/js/2.577350a0.chunk.js"
+    "revision": "75d0a7d4eefdf6c21ec6",
+    "url": "/static/js/2.e5fbad0e.chunk.js"
   },
   {
     "revision": "5776768c082169f6074c75f93f8b9356",
-    "url": "/static/js/2.577350a0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e5fbad0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6efa76a0ad6321914ce",
-    "url": "/static/js/main.43053f34.chunk.js"
+    "revision": "719f13964b898a22b2c0",
+    "url": "/static/js/main.9f0549f3.chunk.js"
   },
   {
     "revision": "6c6617f04d0cec0e110a",
@@ -152,10 +152,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/brittany.5f7ce0e8.jpg"
   },
   {
-    "revision": "f8bd9b45cce4e7b2330c557363a37466",
-    "url": "/static/media/facialEdit.f8bd9b45.png"
-  },
-  {
     "revision": "1f361e4e4f7fc961470825ef61e8c14c",
     "url": "/static/media/gold-glitter.1f361e4e.png"
   },
@@ -180,8 +176,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kara.2b6c3fae.jpeg"
   },
   {
-    "revision": "6e24a9f4ff793710fcfb3136c033822f",
-    "url": "/static/media/leav.6e24a9f4.jpeg"
+    "revision": "3a89c82bcf3a37710cd984602b8fb8f7",
+    "url": "/static/media/leav.3a89c82b.jpeg"
   },
   {
     "revision": "7f8c481503b40479be851aec16a8d229",
@@ -190,10 +186,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d81f57553f2f9ac514773ce4f68489c",
     "url": "/static/media/logoWhite.3d81f575.png"
-  },
-  {
-    "revision": "ceaf4aa3791bb5d73ff19d7af422b2f6",
-    "url": "/static/media/pitman.ceaf4aa3.JPG"
   },
   {
     "revision": "ceaf4aa3791bb5d73ff19d7af422b2f6",
