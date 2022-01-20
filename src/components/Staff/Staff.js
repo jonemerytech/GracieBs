@@ -6,6 +6,7 @@ class Staff extends Component {
   state = {
     readmoreamy: false,
     readmorebritt: false,
+    readmorealyvia: false,
   };
 
   changeRead = (e) => {
@@ -13,19 +14,22 @@ class Staff extends Component {
     if (e.target.name === 'readmoreamy') {
       this.setState((prevState) => ({
         readmoreamy: !prevState.readmoreamy,
-        readmorekara: false,
-        readmorehaley: false,
         readmorebritt: false,
-        readmorenatasha: false,
+        readmorealyvia: false,
       }));
     }
     if (e.target.name === 'readmorebritt') {
       this.setState((prevState) => ({
         readmorebritt: !prevState.readmorebritt,
         readmoreamy: false,
-        readmorekara: false,
-        readmorehaley: false,
-        readmorenatasha: false,
+        readmorealyvia: false,
+      }));
+    }
+    if (e.target.name === 'readmorealyvia') {
+      this.setState((prevState) => ({
+        readmorealyvia: !prevState.readmorealyvia,
+        readmoreamy: false,
+        readmorebritt: false,
       }));
     }
   };
@@ -45,7 +49,7 @@ class Staff extends Component {
     if (this.state.readmorebritt === true) {
       var readMoreBritt = (
         <p>
-          , perched at the foot of the Blue Ridge mountains in northern
+          perched at the foot of the Blue Ridge mountains in northern
           Greenville county. I am a mother of Jayce, lover of Jesus, and you can
           find me somewhere in the Sunshine! Hair has been my passion since a
           young age; when I was only a toddler I would chop and style my
@@ -58,6 +62,13 @@ class Staff extends Component {
         </p>
       );
     }
+    if (this.state.readmorealyvia === true) {
+      var readMoreAlyvia = (
+        <p>
+          salon my whole life. My specialty's are hair color, highlighting, and makeup. Hair is my passion and I would love to have you in my chair!
+        </p>
+      );
+    }
     return (
       <div className='staff pt-5 pb-5'>
         <div className='container text-center'>
@@ -65,7 +76,7 @@ class Staff extends Component {
           <br />
           <div className='row'>
             <div className='col-sm'>
-              <div className='pic2 centerBlock'></div>
+              <div className='pic1 centerBlock'></div>
               <h3>Amy</h3>
               <p>
                 I am a single mother of three beautiful children, a Christian
@@ -84,11 +95,11 @@ class Staff extends Component {
             </div>
 
             <div className='col-sm'>
-              <div className='pic5 centerBlock'></div>
+              <div className='pic2 centerBlock'></div>
               <h3>Brittany</h3>
               <p>
                 Hey y'all! My name is Brittany Batson, born and raised in
-                Travelers Rest South Carolina
+                Travelers Rest South Carolina,
               </p>
 
               {readMoreBritt}
@@ -99,6 +110,24 @@ class Staff extends Component {
                 name='readmorebritt'
               >
                 {this.state.readmorebritt ? 'Read Less' : 'Read More'}
+              </button>
+            </div>
+
+            <div className='col-sm'>
+              <div className='pic3 centerBlock'></div>
+              <h3>Alyvia</h3>
+              <p>
+                I have been a licensed cosmetologist since 2021 but have grown up in a
+              </p>
+
+              {readMoreAlyvia}
+
+              <button
+                onClick={this.changeRead}
+                className='btn btn-outline-dark'
+                name='readmorealyvia'
+              >
+                {this.state.readmorealyvia ? 'Read Less' : 'Read More'}
               </button>
             </div>
           </div>

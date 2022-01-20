@@ -130,7 +130,7 @@ class Services extends Component {
               </div>
               <div className='col'>
                 <h4>
-                  2<br />
+                  3<br />
                   Talented Specialists
                 </h4>
               </div>
